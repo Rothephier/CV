@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to contact me</title>
+  </head>
+  <body>
+    <h2>My Contact Details:</h2>
+    <ul>
+      <li><b>Address: </b>Street, City, Country.</li>
+      <li><b>Phone Number: </b>+0011122333</li>
+      <li><b>Email Address: </b><a href="mailto:myemail@gmail.com">
+       myemail@gmail.com</a></li>
+    </ul>
+    <hr>
+    <form action="mailto:myemail@gmail.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>Your Contact info:</legend>
+        <label for="yourName"><b>Name</b>:</label><br>
+        <input type="text" name="yourName"><br>
+        <label for="yourEmail"><b>Email Address</b>:</label><br>
+        <input type="email" name="yourEmail" value=""><br>
+        <label for="yourMessage"><b>Message</b>:</label><br>
+        <textarea name="yourMessage" rows="10" cols="40"></textarea><br>
+        <input type="submit" name="" value="Submit">
+
+      </fieldset>
+
+    </form>
+  </body>
+</html>
